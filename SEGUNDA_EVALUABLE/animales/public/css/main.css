@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header {
+    width: 100%;
+    height: 15vh;
+    padding: 0 150px 0 150px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagenCabecera{
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/cachorro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    width: 100%;
+    min-height: 75vh;
+    padding-bottom: 50px;
+
+}
+.contenedor-main{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
